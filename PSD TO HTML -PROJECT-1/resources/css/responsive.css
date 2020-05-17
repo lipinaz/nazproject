@@ -1,0 +1,191 @@
+@media only screen and (max-width:800px) {
+
+    .span_1_of_4 {
+        width: 49.2%;
+
+    }
+
+
+    .service-section .col:nth-child(3),
+    .team-section .col:nth-child(3),
+    .skill-section .col:nth-child(3),
+    .portfolio .col:nth-child(3) {
+
+        margin-left: 0;
+
+
+    }
+
+    .client-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .client-review {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+
+
+
+
+    .sticky {
+        display: none;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 668px){
+    
+ .hero-text-box h1 {
+        font-size: 2.4rem;
+    }
+   
+    
+}
+
+
+
+@media only screen and (max-width: 620px) {
+
+    .testimonial-section .col {
+        width: 100%;
+    }
+
+
+    .client-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+
+    .client-review {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .service-section h2 {
+        font-size: 1.8rem;
+
+    }
+
+    .team-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .team-section h3 {
+        font-size: 1.5rem;
+    }
+
+    .skill-section h2 {
+        font-size: 2rem;
+        color:
+    }
+
+}
+
+
+
+@media only screen and (max-width:570px){
+    
+    
+    header{
+    height: 90vh;    
+    }  
+    
+    
+}
+
+
+
+@media only screen and (max-width:480px) {
+
+    .span_1_of_4 {
+        width: 100%;
+    }
+
+    .Team-member {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    
+    .hero-text-box {
+        margin-top: 4rem;
+    }
+    
+    
+    .hero-text-box h1 {
+        font-size: 2rem;
+    }
+   
+
+    .main-nav a {
+
+        font-size: 1rem;
+        background-color: darkcyan;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width:420px) {
+
+    header {
+        height: 70vh;
+
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width:350px){
+    
+    header{
+        
+    height: 90vh;    
+        
+    }  
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

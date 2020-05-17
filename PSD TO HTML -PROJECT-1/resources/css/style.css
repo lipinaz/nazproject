@@ -1,0 +1,672 @@
+ /* -BASIC SETUP ------*/    
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+
+html {
+        font-size: 62.5%;
+        
+    }
+
+body {
+        font-family: titillium web;
+        text-rendering: optimizeLegibility;
+         
+        
+
+}
+
+
+
+
+ .row {
+        max-width: 114rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+section {
+        padding: 7rem 0rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+        margin-top: 2.5rem;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+
+
+
+/*------ header section----*/
+
+header {
+    background: #99c;
+     width: 100%;
+    height: 80vh;
+    position: relative;
+    
+  }
+
+/*-------logo----------*/
+    .logo {
+        width: auto;
+        height: 3.5rem;
+        margin-top: 2rem; 
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        float:left;
+        
+        
+    }
+
+/*---main-nav -----*/
+
+.main-nav {
+float: right;
+ margin-right: 1rem;    
+    
+
+}
+
+
+.main-nav li {
+display: inline-block;
+ margin-left: 1rem;
+        
+    }
+
+.main-nav li {
+margin-top: 3.4rem;
+margin-bottom: rem;     
+   
+   }
+
+.main-nav a:visited{
+green;    
+}
+
+.main-nav li a:hover {
+        background-color: green;
+
+}
+
+
+
+
+
+
+.main-nav a {
+        text-decoration: none;
+        background: #643a79;
+        padding: 0.3rem .8rem;
+        border-radius: 
+        transition 3s;
+        font-size:1.2rem;
+       color: gold;
+
+    }
+
+
+/*----mobime-menu---*/
+.mobile-menu{
+font-size: 3rem; 
+color: aliceblue;
+float: right;
+margin-top: 2rem; 
+margin-right: 2rem;    
+
+}
+
+.mobile-menu:hover{
+cursor: grab;
+}
+
+
+
+
+
+.hero-text-box{
+max-width: 114rem;     
+    
+}
+
+.hero-text-box{
+ transform: translate(-50% -50%);
+margin-top: 10rem;   
+    
+}
+    
+.hero-text-box h1{
+font-size: 4rem;
+color: antiquewhite;
+    
+}
+
+
+
+ .btn-hero{
+ width: 15rem;
+height: 3.5rem;
+background-color: cyan; 
+border: 0; 
+    
+}
+
+.btn-hero a{
+text-decoration: none;
+font-size: 2rem;    
+} 
+
+.btn-hero:hover{
+background-color: crimson;
+}
+
+
+.sticky{
+  position: fixed;
+   top:0;
+    left: 0;
+    width: 100%;
+    background: #0033;
+    
+}
+
+
+
+  
+    
+
+
+    
+/*--end header section ---*/
+
+
+
+/*--Start service section ---*/
+
+    .service-section {
+        color: #fff;
+        text-align: center;
+        background: #17c2a4;
+    }
+
+
+    .service-section h2 {
+        font-size: 2.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-weight: 600;
+    }
+
+    .service-section h2::after {
+        content: "";
+        width: 15rem;
+        height: 0.5rem;
+        background-color: #fff;
+        margin: auto;
+        display: block;
+        margin-top: 1rem;
+    }
+
+
+
+    .service-section p {
+        font-size: 1.5rem;
+        color: green;
+
+    }
+
+    .service-section h3 {
+        font-size: 2.4rem;
+
+    }
+
+/*---END service section style---*/
+
+ /*---Start team section style---*/
+
+    .team-section {
+        text-align: center;
+        background: #bbd;
+
+    }
+
+    .team-section h2 {
+        color: #3c4761;
+        text-align: center;
+        font-size: 2.4rem;
+        margin-top: 2rem;
+    }
+
+    .team-section h2::after {
+        content: "";
+        width: 15rem;
+        height: 0.5rem;
+        margin: auto;
+        display: block;
+        margin-top: 0.5rem;
+        background: red;
+        margin-bottom: 0.9rem;
+    }
+
+    .team-section p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+
+.team-section h3{
+font-size: 2rem;
+color: chartreuse;    
+}
+
+
+    .Team-member {
+        margin-top: 4.5rem;
+        margin-bottom: 3.5rem;
+        height: 20rem;
+        width: 20rem;
+        border-radius: 50%;
+    }
+
+.Team-member img:nth-child(3){
+margin-left: 0;    
+}
+
+
+
+
+
+.social-link {
+margin-top: 2.5rem;
+
+}
+
+    .social-link ul li {
+        display: inline-block;
+        margin: 0 0.5rem;
+    }
+
+    .social-link ul li a:link {
+        color: #fff;
+    }
+
+
+    .social-link ul li a:link i::before {
+    background-color: gray;
+        width: 2rem;
+        height: 2rem;
+        display: inline-block;
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 50%;
+        transition: .1s;
+    }
+
+
+    .social-link ul li a:hover i::before {
+        background-color: aqua;
+        transform: rotate(320deg);
+
+    }
+
+/*---end team section style----*/
+
+
+
+/*--Start skill-section style---*/
+
+    .skill-section {
+        background-color: #99c;
+
+    }
+
+
+    .skill-section h2 {
+        font-size: 2.8rem;
+        color: #3c4761;
+        margin-top: 2rem;
+    }
+
+
+    .skill-section h2::after {
+        content: "";
+        width: 15rem;
+        height: 0.5rem;
+        margin: auto;
+        display: block;
+        margin-top: 0.5rem;
+        background: #c8d9e5;
+        margin-bottom: 0.9rem;
+
+    }
+
+    .skill-section p{
+        font-size: 2rem;
+        color: #3c4761;
+        text-align: center;
+
+    }
+
+    .row h3 {
+        font-size: 2.4rem;
+        color: #3c4761;
+    }
+
+
+
+    svg.radial-progress circle {
+        stroke-width: 5;
+    }
+
+    svg.radial-progress text {
+        fill: #3c4761;
+    }
+
+    svg.web-design circle {
+        stroke: #30bae7;
+
+    }
+
+    svg.html-css circle {
+        stroke: #d74680;
+
+    }
+
+    svg.graphic-design circle {
+        stroke: #15c7a8;
+
+    }
+
+    svg.ui-ux circle {
+        stroke: #eb7d4b;
+
+    }
+
+ /*----End skill-section style---*/
+
+
+
+
+
+
+
+/*---portfolio- section----*/
+
+.portfolio{
+background: #ffdd99;  
+    
+}
+
+.portfolio h2{
+font-size: 3rem;    
+ color:grey;
+margin-top: 1rem;    
+   
+}
+
+
+.portfolio h2::after{
+content: "";
+width: 10rem;
+height: .5rem;
+background-color:red;
+margin: auto; 
+display: block;  
+margin-top: 0.5rem;    
+}
+
+
+.portfolio p{
+font-size: 2rem;    
+}
+
+
+
+.portfolio-filter button{
+width: 7rem;
+height: 3.5rem;
+background-color: antiquewhite;    
+border-radius: 0.5rem;
+margin-top: 1.5rem;
+font-size: 1.5rem;    
+
+}
+
+
+.portfolio-filter button:hover{
+background-color: gold;
+cursor: grab;
+transition: 1s;    
+}
+
+.portfolio .col:nth-child(3){
+margin-left: 0;    
+}
+
+.portfolio img{
+margin-top:0px;
+width: 30rem;
+height: 20rem;    
+    
+}
+
+
+.btn-naz{
+    
+    
+}
+
+
+   
+/*---- testimonial------*/
+
+.testimonial-section{
+ background-color: darkslateblue;  
+}
+
+.testimonial-section h2{
+ font-size: 3rem;
+color: darkorange;
+margin-top: 2rem;    
+}
+
+
+.testimonial-section h2::after{
+ content: "" ;
+width: 15rem;
+height: 0.5rem;
+background-color: crimson;
+margin: auto;
+display: block;
+margin-top: 1rem;   
+    
+}
+
+.testimonial-section p{
+font-size: 2rem; 
+margin-top: 0.5rem;   
+ color: chocolate;     
+}
+
+
+
+
+
+
+
+
+.testimonial-section .col:nth-child(3){
+ margin-left: 0;  
+}
+
+
+.testimonial-section .col:nth-child(1),
+.testimonial-section .col:nth-child(2) {   
+margin-top: 4rem;   
+}
+
+.testimonial-section .col:nth-child(3),
+.testimonial-section .col:nth-child(4) {   
+margin-top: 8rem;   
+}
+
+.client-photo{
+width: 10rem;
+float: left;    
+    
+}
+
+
+.client-photo img{
+height: 8rem;
+border-radius: 50%; 
+margin-bottom: 3rem;    
+}
+
+.client-review{
+width: 30rem;
+float: left;    
+}
+
+.client-review p{
+font-size: 2.1rem; 
+margin-top: 0;
+    
+}
+
+
+
+.client-review h3{
+color: chartreuse;
+margin-top: 1rem;    
+margin-bottom: 1rem;    
+}
+
+.role{
+color: green;
+font-size: 1.5rem;    
+}
+
+
+
+.testimonial-section{
+   
+}
+
+
+/*---START CONTACTS-SECTION----*/
+
+
+.contact-section {
+background: #003366;
+
+    }
+
+
+.contact-section h2 {
+
+font-size: 2.4rem;
+color: blueviolet;
+margin-top: 2rem;
+}
+
+
+.contact-section h2::after {
+content: "" ;
+width: 10rem;
+height: 0.5rem;
+background-color: crimson;
+margin: auto;
+display: block;
+margin-top: 1rem;
+            }
+
+.contact-section p{
+color: deeppink;
+margin-top: 2rem; 
+font-size: 2rem;    
+}
+
+
+
+.contact-section form {
+    margin-top: 8rem;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 1.5rem;    
+    }
+
+
+
+.contact-section form::placeholder{
+color: #fff;
+opacity: 1;    
+}  
+
+.contact-section input[type="text"],
+.contact-section input[type="e-mail"],
+.contact-section textarea {
+
+    background: #003366;
+    width: 100%;
+            border:.1rem solid red;
+    border-radius: .1rem 
+        
+
+}
+
+
+.btn-naz{
+width: 18rem;
+height: 3rem;
+background-color: gold;
+ margin-top: 2rem; 
+font-size: 2rem;    
+}
+
+.btn-naz:hover{
+cursor: pointer;
+    color: green;
+}
+/*-footer---*/
+
+.footer-section{
+ background-color: darkgray;   
+ padding: 2rem 0;
+border-top: 3px solid gray;    
+}
+
+
+.footer-section li{
+display: inline-block;
+}
+
+.footer-section a{
+text-decoration: none;    
+padding: 0px 1rem;
+font-size: 3rem;    
+    
+    
+}
+
+.footer-section a:hover{
+color: green;
+}
+
+
+
+
+
+
